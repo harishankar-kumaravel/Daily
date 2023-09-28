@@ -10,6 +10,7 @@
 
 .logo{
     font-size: 28px;
+    margin-left: 10%;
 }
 ul{
     display: flex;
@@ -81,8 +82,28 @@ hr {
 
 }
 
+.container{
+    display: flex;
+    margin-top: 70px;
 
+}
 
+.container>div{
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+}
 
+.container>div>img{
+   height: auto;
+    width: 100%;
+    display: block;
+}
 
+.cricle{
+    position: absolute;
+    
 
+}
