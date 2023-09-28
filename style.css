@@ -7,7 +7,9 @@
     padding: 10px 20px; 
 }
 
-
+.logo{
+    font-size: 28px;
+}
 ul{
     display: flex;
     justify-content: flex-end;
@@ -29,6 +31,7 @@ img{
     height: auto;
     display: block;
 }
+
 
 
 
