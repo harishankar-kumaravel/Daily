@@ -31,7 +31,21 @@ img{
     height: auto;
     display: block;
 }
+.imgcontainer{
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
 
+.imagetext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+
+}
 
 
 
