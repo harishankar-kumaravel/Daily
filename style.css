@@ -1,0 +1,36 @@
+.headerbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dadada; 
+    color: #303a89; 
+    padding: 10px 20px; 
+}
+
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    text-transform: uppercase;
+    gap: 20px;
+    font-size: 18px;
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+:root{
+    font-family:  'Open Sans';
+}
+
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+
+
