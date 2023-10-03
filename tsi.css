@@ -1,0 +1,97 @@
+:root{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* body{background-color: black;} */
+.hero-section
+{
+    width: 98vw;
+height: 94vh;
+ background-image: url('iStock-543329290.png');
+ background-size: cover; 
+ background-repeat: no-repeat; 
+  
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 22px;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0PX 40px 0 40px;
+    width: auto;
+    color: white;
+    
+}
+.header div {
+    cursor: pointer;
+}
+.menu>ul>li{
+    display: inline-flex;
+    list-style-type: none;
+    line-height: 22px;
+    color: white;
+  
+    
+
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+
+    
+
+}
+.menu>ul{
+    gap: 20px;
+    display: flex;
+}
+
+.menu{
+    padding: 0 15px;
+}
+.rightmenu{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.button{
+    padding: 15px 20px;
+    background-color: #f27804;
+    border: 2px solid#f27804;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;   
+}
+/* ------------------------------------------ */
+/* Header Hover Lines  */
+/* -------------------------------- */
+
+
+.lang:hover{
+    color: #f27804;
+
+}
+.menu a:hover
+{
+    color: #f27804;
+    border-bottom: 2px solid #f27804;
+}
+.button:hover{
+    color: #f27804;
+    background-color: transparent;
+    border: 2px solid #f27804;
+    border-radius: 10px;
+}
+.ithead{
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+   margin: 0 0 20px 0;
+}
+ 
+.herotext{
+    
+}
