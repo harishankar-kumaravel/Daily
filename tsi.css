@@ -116,3 +116,19 @@ height: 94vh;
     margin: 0 0 20px 0;
     font-weight: 100;
 }
+.buttonmiddle{  
+    padding: 15px 20px;
+    background-color: #f27804;
+    border: 2px solid#f27804;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;   
+    cursor: pointer;
+    font-weight: 100;
+}
+.buttonmiddle:hover{
+    color: #f27804;
+    background-color: transparent;
+    border: 2px solid #f27804;
+    border-radius: 10px;
+}
