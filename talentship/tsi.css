@@ -6,7 +6,7 @@
 {
     width: 98vw;
 height: 94vh;
- background-image: url('iStock-543329290.png');
+ background-image: url('./images/bg-image.png');
  background-size: cover; 
  background-repeat: no-repeat; 
  background-position-x: 10%;
@@ -22,28 +22,34 @@ height: 94vh;
     margin: 0PX 40px 0 40px;
     width: auto;
     color: white;
+     div {
+        cursor: pointer;
+    }
+
     
 }
-.header div {
-    cursor: pointer;
-}
+ 
 .menu>ul>li{
     display: inline-flex;
     list-style-type: none;
     line-height: 22px;
-    color: white;
-  
+    color: white !important;
+  a{
+        color: white;
+        text-decoration: none;
+        border-bottom: 2px solid transparent;
+    }     
     
 
 }
-.menu a{
+/* .menu a{
     color: white;
     text-decoration: none;
     border-bottom: 2px solid transparent;
 
     
 
-}
+} */
 .menu>ul{
     gap: 20px;
     display: flex;
@@ -51,6 +57,7 @@ height: 94vh;
 
 .menu{
     padding: 0 15px;
+    
 }
 .rightmenu{
     display: flex;
